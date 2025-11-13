@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+  font-display: fallback;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -15,7 +21,7 @@ form {
   color: rgba(31, 33, 40, 1);
   width: 370px;
   height: 326px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", "sans-serif";
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0px;
